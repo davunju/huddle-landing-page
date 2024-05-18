@@ -869,6 +869,12 @@ video {
   }
 }
 
+@media (min-width: 1280px){
+  .xl\:w-full{
+    width: 100%;
+  }
+}
+
 @media (max-width: 375px){
   .sp\:size-3{
     width: 0.75rem;
@@ -912,20 +918,12 @@ video {
     width: 50%;
   }
 
-  .tab\:w-\[20rem\]{
-    width: 20rem;
-  }
-
   .tab\:w-\[18rem\]{
     width: 18rem;
   }
 
   .tab\:items-center{
     align-items: center;
-  }
-
-  .tab\:gap-5{
-    gap: 1.25rem;
   }
 
   .tab\:gap-10{
@@ -939,11 +937,6 @@ video {
 
   .tab\:text-start{
     text-align: start;
-  }
-
-  .tab\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 
   .tab\:text-base{
